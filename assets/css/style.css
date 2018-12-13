@@ -1,3 +1,11 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+
+
 body {
 
     background: purple;
@@ -21,6 +29,7 @@ h1 {
 }
 
 h2 {
+    background-color: rgb(43, 181, 245);
     color: blueviolet;
     margin: 0;
     text-align: center;
@@ -63,42 +72,47 @@ h4 {
 
 .btn-crystal1 {
     background-color: lavender;
-    height: 850px;
-    width: 850px;
+    height: 500px;
+    width: 500px;
+    margin: 60px;
     padding: 10px;
     font-size: 20px;
     text-align: center;
-    border-color: black;
+    border-color: purple;
 
 }
 
 .btn-crystal2 {
     background-color: lavender;
-    height: 850px;
-    width: 850px;
+    height: 500px;
+    width: 500px;
+    margin: 60px;
     padding: 10px;
     font-size: 20px;
-    text-align: center;
-    border-color: black; 
+    text-align: left;
+    border-color: purple; 
 }
 
 
 .btn-crystal3 {
     background-color: lavender;
-    height: 850px;
-    width: 850px;
+    height: 500px;
+    width: 500px;
+    margin: 60px;
     padding: 10px;
     font-size: 20px;
     text-align: center;
-    border-color: black;
+    border-color: purple;
 }
 
 .btn-crystal4 {
     background-color: lavender;
-    height: 850px;
-    width: 850px;
+    height: 500px;
+    width: 500px;
+    margin: 60px;
     padding: 10px;
     font-size: 20px;
     text-align: center;
-    border-color: black;
+    border-color: purple;
 }
+
