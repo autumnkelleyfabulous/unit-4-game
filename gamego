@@ -1,0 +1,28 @@
+Crystal Game spuedo code :)
+
+At top show variables
+and run function
+with 4 crystal buttons at the buttom of the page
+-buttons from bootstrap
+
+
+each crystal should have a random hidden value between 
+1-12 that's hidden from player
+
+a random number will show at the bottom of the page to start
+    -randomnumber generator between 19-120
+
+
+each crystal when you click on it will add their number to your score 
+underneath
+
+goal is to press crystals to have points to equal the random number
+
+if it is not equal we loose and start over
+
+if it is equal we win and the win counter goes up ++
+
+have a win-loss counter
+
+then game will reset
+

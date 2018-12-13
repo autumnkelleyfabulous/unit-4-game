@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <Title> Sabrina the Teenage Witch: Crystal Collector </Title>
+    <Title>Crystal Collector</Title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet"  type="text/css" href="assets/css/style.css">
 </head>
@@ -14,46 +14,59 @@
 </header>
 
 
-<div class="instructions">
-
+<div class="Instructions">
      <h2>Let's Play a Game!</h2>
 </br>
-   <ol>
-        <li>There are four crystals below, each has a different value. By clicking on 
-                each crystal your goal is have your score reach the number shown.</li>
+<h3>
+   <ul>
+     <li>You will be given a random number at the start of the game.</li>
+
+        <li>There are four crystals below, each has a different value. By clicking on each crystal you will add the crystal's point value to your total score.</li>
       
-        <li>If you go above the number, YOU LOOSE!</li>
+        <li>To win the game, you must match your total score with the random number shown.If you go over you loose!</li>
       
-        <li>Each time a new game begins, the value of each crystal changes </li>
+        <li>The value of each crystal is revealed when you click on it.</li>
+
+        <li>Each time the game begins, the game will change the values of each crystal</li>
       
         <li>GOOD LUCK!</li>
-   </ol>
+   </ul>
+</h3>
+   </div>
           
-   <!-- <div class="container"> -->
-  <div class="buttons">
+  
+   <div class="buttons">
+
           <div class="crystal1">
-                <button type="button" class="btn btn-primary">Crystal 1 </button>
+                <button type="button" class="btn btn-crystal1";><img src= "assets/images/crystal1.png">Crystal 1</button>
           </div>    
           <div class="crystal2">
-                <button type="button" class="btn btn-secondary">Crystal 2</button>
+                <button type="button" class="btn btn-crystal2";><img src= "assets/images/crystal2.png"> Crystal 2</button>
           </div>
 
            <div class="crystal3" id="crystalThree">
-                <button type="button" class="btn btn-success";><img src= "assets/images/crystal3.png">Crystal 3</button>
+                <button type="button" class="btn btn-crystal3";><img src= "assets/images/crystal3.png">Crystal 3</button>
            </div>
            <div class="crystal4">
-                <button type="button" class="btn btn-danger";><img src= "assets/images/crystal4.jpg">Crystal 4</button>
+                <button type="button" class="btn btn-crystal4";><img src= "assets/images/crystal4.jpg">Crystal 4</button>
            </div>
-        </div>
-    <!-- </div> -->
+        </div> 
+
+        <!-- <div class="buttons">
+               <ul>
+                    <li id="crystal1">Crystal1</li>
+                    <li id="crystal2">Crystal2</li>
+                    <li id="crystal3">Crystal3</li>
+                    <li id="crystal4">Crystal4</li>
+               </ul> -->
+                 <!-- <img src="assets/images/crystal1.png" class=gemImage id="one" alt="crystal1">
+                 <img src="assets/images/crystal2.png" class=gemImage id="two" alt="crystal2">
+                 <img src="assets/images/crystal3.png" class=gemImage id= "three" alt="crystal3">
+                 <img src="assets/images/crystal4.jpg" class=gemImage id= "four" alt="crystal4">
+             </div>  -->
+    
            <script src="assets/javascript/game.js"></script>
-
-
-                <!-- <img src="assets/images/blue.png" class=gemImage id="one" alt="Blue Gem">
-                <img src="assets/images/green.png" class=gemImage id="two" alt="Green Gem">
-                <img src="assets/images/red.png" class=gemImage id= "three" alt="Red Gem">
-                <img src="assets/images/yellow.png" class=gemImage id= "four" alt="Yellow Gem">
-            </div> -->
+          
 
           
    
