@@ -36,6 +36,11 @@ function randomMath() {
 
 } 
 
+function newFunction() {
+    $("#numberWins").text(wins);
+    $("#numberLosses").text(losses);
+    won();
+
 $(document).ready(function() {
    
 // random number from computer
@@ -44,7 +49,8 @@ $(document).ready(function() {
         console.log(this);
          yourTotal = yourTotal + crystal1;
          $("#yourTotal").text(finalScore);
-        
+         crystal1 =
+         Math.floor(Math.random()* 12) +1;
          if(yourTotal == randomNumber) {
              celebrate ();
          }
@@ -57,7 +63,8 @@ $(document).ready(function() {
     $(".crystal2").on("click", function() {
         yourTotal = yourTotal + crystal2;
         $("#yourTotal").text(finalScore);
-        
+        crystal2 =
+        Math.floor(Math.random() * 12) +1;
         if(yourTotal == randomNumber) {
             celebrate ();
         }
@@ -69,7 +76,8 @@ $(document).ready(function() {
     $(".crystal3").on("click", function() {
         yourTotal = yourTotal + crystal3;
         $("#yourTotal").text(finalScore);
-        
+        crystal3 =
+        Math.floor(Math.random() *12) +1;
         if(yourTotal == randomNumber) {
             celebrate ();
         }
@@ -81,7 +89,8 @@ $(document).ready(function() {
     $(".crystal4").on("click", function() {
         yourTotal = yourTotal + crystal4;
         $("#yourTotal").text(finalScore);
-        
+        crystal4 =
+        Math.floor(Math.random() *12) +1;
         if(yourTotal == randomNumber) {
             celebrate ();
         }
@@ -90,29 +99,20 @@ $(document).ready(function() {
         }
     });
 
+        // newFunction();
 
-    // for ( var i = 0; i < 4; i++){ 
+        //  }
+  
 
-        crystal1 =
-        Math.floor(Math.random()* 12) +1;
-        crystal2 =
-        Math.floor(Math.random() * 12) +1;
-        crystal3 =
-        Math.floor(Math.random() *12) +1;
-        crystal4 =
-        Math.floor(Math.random() *12) +1;
-
-        $("#numberWins").text(wins);
-        $("#numberLosses").text(losses);
-
-        won()
-});
-
+// function newFunction() {
+//     $("#numberWins").text(wins);
+//     $("#numberLosses").text(losses);
+//     won();
+// }
+    // each (buttons)
     
-    
-    
-    
-    
+    //  ( var i = 0; i < 4; i++){ 
+    //   array.forEach(_buttons => {
 
         //     var random = Math.floor(Math.random() *12
         //     console.log(random);
@@ -135,20 +135,3 @@ $(document).ready(function() {
 // buttons
    
 
-
-    // $(randomNumber).text(Random);
-
-
-
-// var crystal1= Math.floor(Math.random()*12)
-// var crystal2= Math.floor(Math.random()*12)
-// var crystal3= Math.floor(Math.random()*12)
-// var crystal4= Math.floor(Math.random()*12)
-
-
-// Random=Math.floor(Math.random()*101+19);
-// console.log(random)
-// crystal1= Math.floor(Math.random()*1+11);
-// crystal2= Math.floor(Math.random()*1+11);
-// crystal3= Math.floor(Math.random()*1+11);
-// crystal4= Math.floor(Math.random()*1+11);
